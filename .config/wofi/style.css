@@ -1,0 +1,57 @@
+window {
+    margin: 5px;
+    background-color: #ffffff;
+    border: 2px solid #727782;
+    color: #171c24;
+    font-family: BlexMono Nerd Font Mono, monospace;
+}
+
+#input {
+    margin: 5px;
+    border: 2px solid #727782;
+    background-color: #dee2ef;
+    color: #424751;
+    border-radius: 0px;
+    font-family: BlexMono Nerd Font Mono, monospace;
+}
+
+#inner-box {
+    margin: 5px;
+    background-color: #ffffff;
+    color: #171c24;
+
+}
+
+#outer-box {
+    margin: 5px;
+    background-color: #ffffff;
+    color: #171c24;
+}
+
+#scroll {
+    margin: 5px;
+    border: 2px solid #727782;
+    background-color: #ffffff;
+    color: #171c24;
+}
+
+#text {
+    margin: 5px;
+    background-color: #ffffff;
+    color: #171c24;
+}
+
+#entry:selected {
+    background-color: #171c24;
+    color: #ffffff;
+}
+
+#entry {
+    border: 2px solid #727782;
+    margin: 4px;
+}
+
+#text:selected {
+    background-color: #171c24;
+    color: #ffffff;
+}

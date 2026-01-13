@@ -1,0 +1,73 @@
+[config]
+
+[templates.alacritty]
+input_path = './templates/alacritty.toml'
+output_path = '~/.config/alacritty/theme.toml'
+
+[templates.hyprland]
+input_path = './templates/hyprland-colors.conf'
+output_path = '~/.config/hypr/colors.conf'
+
+[templates.wofi]
+input_path = './templates/wofi-style.css'
+output_path = '~/.config/wofi/style.css'
+
+[templates.qt6ct]
+input_path = './templates/qtct-colors.conf'
+output_path = '~/.config/qt6ct/colors/theme.conf'
+
+[templates.qt5ct]
+input_path = './templates/qtct-colors.conf'
+output_path = '~/.config/qt5ct/colors/theme.conf'
+
+[templates.matugen]
+input_path = './templates/Matugen.colors'
+output_path = '~/.local/share/color-schemes/Matugen.colors'
+
+[templates.pywalfox]
+input_path = './templates/pywalfox-colors.json'
+output_path = '~/.cache/wal/colors.json'
+post_hook = 'pywalfox update'
+
+
+[templates.gtk4-settings]
+input_path="./templates/gtk4-settings.ini"
+output_path = "~/.config/gtk-4.0/settings.ini"
+
+[templates.gtk3-settings]
+input_path="./templates/gtk3-settings.ini"
+output_path = "~/.config/gtk-3.0/settings.ini"
+post_hook = "theme=$(awk -F '=' '/gtk-theme-name/ {print $2}' ~/.config/gtk-4.0/settings.ini) gsettings set org.gnome.desktop.interface gtk-theme $theme; gsettings set org.gnome.desktop.interface color-scheme prefer-{{mode}}"
+
+[templates.gtk2-settings]
+input_path="./templates/gtk2-settings"
+output_path = "~/.gtkrc-2.0"
+
+[templates.gtk4-colors]
+input_path = './templates/gtk4-colors.css'
+output_path = '~/.config/gtk-4.0/colors.css'
+
+
+[templates.hyprconfig]
+input_path = "~/.config/matugen/templates/hyprconfig.css"
+output_path = "~/.config/hyprconfig/theme.css"
+
+[templates.clammy]
+input_path = "~/.config/matugen/templates/clammy.toml"
+output_path = "~/.config/clammy/config.toml"
+
+[templates.zed]
+input_path="./templates/zed-colors.json"
+output_path = "~/.config/zed/themes/matugen.json"
+
+[templates.xsettingsd]
+input_path="./templates/xsettingsd.conf"
+output_path = "~/.config/xsettingsd/xsettingsd.conf"
+
+[templates.ghostty]
+input_path="./templates/ghostty.colors"
+output_path = "~/.config/ghostty/themes/matugen.conf"
+
+[templates.walker]
+input_path = "~/.config/matugen/templates/walker-style.css"
+output_path = "~/.config/walker/themes/matugen/style.css"

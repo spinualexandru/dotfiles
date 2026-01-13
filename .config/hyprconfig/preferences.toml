@@ -1,0 +1,4 @@
+[matugen]
+enable = true
+light_mode = true
+generator_type = "scheme-vibrant"

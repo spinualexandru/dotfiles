@@ -1,0 +1,18 @@
+# Todosh Configuration
+
+defaultBoard = 1
+
+[ui]
+theme = "default"
+useNerdfonts = true
+showArchived = false
+
+[keybinds]
+mode = "default"
+
+[ipc]
+enabled = true
+# socketPath = "/tmp/todosh.sock"
+
+[database]
+# path = ""

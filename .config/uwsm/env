@@ -1,0 +1,14 @@
+export GBM_BACKEND=nvidia-drm
+export LIBVA_DRIVER_NAME=nvidia
+export __GLX_VENDOR_LIBRARY_NAME=nvidia
+export NVD_BACKEND=direct
+export ELECTRON_OZONE_PLATFORM_HINT=auto
+export QT_QPA_PLATFORMTHEME=hyprqt6engine
+export QT_STYLE_OVERRIDE=Breeze
+export QT_QPA_PLATFORM="wayland;xcb"
+export QT_WAYLAND_DISABLE_WINDOWDECORATION=1
+export _JAVA_AWT_WM_NONREPARENTING=1
+export XDG_MENU_PREFIX=arch-
+export CLUTTER_BACKEND=wayland
+export XCURSOR_THEME=Adwaita
+export XCURSOR_SIZE=24

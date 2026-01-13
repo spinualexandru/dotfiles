@@ -1,0 +1,20 @@
+[theme]
+# Core palette
+background = "#f9f9ff"
+background_alpha = 0.85
+text = "#171c24"
+success = "#5d598a"
+danger = "#ba1a1a"
+font = "BlexMono Nerd Font Mono"
+font_size = 16
+
+# Extended colors
+accent = "#005fb0"
+accent2 = "#555d7e"
+info = "#5d598a"
+surface = "#e9eefa"
+surface_alpha = 0.94
+border = "#727782"
+muted = "#c2c6d2"
+hover = "#e4e8f4"
+hover_alpha = 0.5

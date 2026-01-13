@@ -1,0 +1,71 @@
+/* Hyprconfig Theme - Matugen Template
+ * This template generates theme.css using matugen colors.
+ * Configure matugen to use this template by adding to ~/.config/matugen/config.toml:
+ *
+ * [templates.hyprconfig]
+ * input_path = "~/.config/matugen/templates/hyprconfig.css"
+ * output_path = "~/.config/hyprconfig/theme.css"
+ */
+
+:root {
+
+  /* Sidebar */
+  --sidebar: #f9f9ff;
+  --sidebar-foreground: #171c24;
+  --sidebar-primary: #005fb0;
+  --sidebar-primary-foreground: #ffffff;
+  --sidebar-accent: #dce1ff;
+  --sidebar-accent-foreground: #121a37;
+  --sidebar-border: #c2c6d2;
+  --sidebar-ring: #005fb0;
+
+  /* Base colors */
+  --background: #f9f9ff;
+  --foreground: #171c24;
+  --card: #e9eefa;
+  --card-foreground: #171c24;
+  --popover: #e4e8f4;
+  --popover-foreground: #171c24;
+  --primary: #005fb0;
+  --primary-foreground: #ffffff;
+  --secondary: #dce1ff;
+  --secondary-foreground: #121a37;
+  --muted: #dee2ef;
+  --muted-foreground: #424751;
+  --accent: #5d598a;
+  --accent-foreground: #ffffff;
+  --destructive: #ba1a1a;
+  --destructive-foreground: #ffffff;
+  --border: #c2c6d2;
+  --input: #c2c6d2;
+  --ring: #005fb0;
+
+  /* Tailwind @theme overrides */
+  --color-sidebar: #f9f9ff;
+  --color-sidebar-foreground: #171c24;
+  --color-sidebar-primary: #005fb0;
+  --color-sidebar-primary-foreground: #ffffff;
+  --color-sidebar-accent: #dce1ff;
+  --color-sidebar-accent-foreground: #121a37;
+  --color-sidebar-border: #c2c6d2;
+  --color-sidebar-ring: #005fb0;
+  --color-background: #f9f9ff;
+  --color-foreground: #171c24;
+  --color-card: #e9eefa;
+  --color-card-foreground: #171c24;
+  --color-popover: #e4e8f4;
+  --color-popover-foreground: #171c24;
+  --color-primary: #005fb0;
+  --color-primary-foreground: #ffffff;
+  --color-secondary: #dce1ff;
+  --color-secondary-foreground: #121a37;
+  --color-muted: #dee2ef;
+  --color-muted-foreground: #424751;
+  --color-accent: #5d598a;
+  --color-accent-foreground: #ffffff;
+  --color-destructive: #ba1a1a;
+  --color-destructive-foreground: #ffffff;
+  --color-border: #c2c6d2;
+  --color-input: #c2c6d2;
+  --color-ring: #005fb0;
+}
