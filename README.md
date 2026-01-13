@@ -29,11 +29,12 @@ uwsm                // universal wayland session manager
 
 ### Optional
 ```
-zed                 // code editor
-todosh               // todo manager for terminal
+zed                // code editor
+todosh             // todo manager for terminal
 mpv                // media player
 mpd                // music player daemon
 imv                // image viewer
 fish               // shell
 hyprconfig         // hyprland config manager
+hyprsnow           // hyprland snow effects
 ```
