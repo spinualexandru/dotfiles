@@ -1,6 +1,9 @@
 # dotfiles
 Personal dotfiles for my Arch + Hyprland setup
 
+## Screenshots
+<img width="2560" height="1600" alt="image" src="https://github.com/user-attachments/assets/c5b92d79-6e78-4d23-a51d-0f52398e14cb" />
+
 ## Packages
 
 ### Mandatory
